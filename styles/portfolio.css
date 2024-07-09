@@ -9,6 +9,10 @@
 
 
 /* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -31,11 +35,22 @@
     border: none;
 }
 
-
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
 }
 
 
@@ -81,14 +96,69 @@ nav ul{
 
 .banner-greetings{
     font-weight: 600;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .banner-title{
     font-weight: bold;
-    font-size: 85px;
+    font-size: 80px;
 }
 
 .banner-image{
     width: 584px;
+}
+
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+}
+
+.about-body{
+    background-color: white;
+}
+
+.about-item{
+    text-align: center;
+}
+
+.about-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.item-description{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
